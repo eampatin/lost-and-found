@@ -17,7 +17,7 @@ import RegisterForm from '@/components/auth/RegisterForm.vue';
                 max-width="400"
                 prepend-icon="mdi-dog"
                 title="Register"
-                image="public/images/Walls.jpg"
+                image="/images/Walls.jpg"
               >
                 <template v-slot:prepend>
                   <v-icon size="x-large"></v-icon>

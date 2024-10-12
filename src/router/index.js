@@ -6,6 +6,12 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      name: 'home',
+      redirect: '/login' // Redirecting to login or another view
+    },
+
+    {
       path: '/login',
       name: 'login',
       component: LoginView

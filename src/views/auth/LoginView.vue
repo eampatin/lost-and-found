@@ -14,7 +14,7 @@ import LoginForm from '@/components/auth/LoginForm.vue';
                 max-width="400"
                 prepend-icon="mdi-dog"
                 title="Login"
-                image="public/images/Walls.jpg"
+                image="/images/Walls.jpg"
                 elevation="15"
               >
                 <template v-slot:prepend>
